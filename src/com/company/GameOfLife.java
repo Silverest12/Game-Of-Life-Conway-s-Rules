@@ -89,7 +89,7 @@ class GameOfLife extends JFrame {
             while (true) {
                 do {
                     try {
-                        Thread.sleep(250L);
+                        Thread.sleep(150L);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
